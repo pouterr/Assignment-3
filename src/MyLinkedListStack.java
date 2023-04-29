@@ -20,6 +20,12 @@ public class MyLinkedListStack<T> {
         list.add(element);
     }
 
+    /**
+     * Removes and returns the top element of the stack.
+     *
+     * @return the top element of the stack
+     * @throws EmptyStackException if the stack is empty
+     */
     public T pop() {
         if (isEmpty()) {
             throw new EmptyStackException();
