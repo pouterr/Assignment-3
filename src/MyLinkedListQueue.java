@@ -9,4 +9,13 @@ public class MyLinkedListQueue<T> {
     public MyLinkedListQueue() {
         list = new MyLinkedList<>();
     }
+
+    /**
+     * Adds an element to the back of the queue.
+     *
+     * @param element the element to be added to the back of the queue
+     */
+    public void enqueue(T element) {
+        list.add(element);
+    }
 }
