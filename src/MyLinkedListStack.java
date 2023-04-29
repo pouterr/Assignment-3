@@ -11,6 +11,15 @@ public class MyLinkedListStack<T> {
         list.add(element);
     }
 
+    public T pop() {
+        if (isEmpty()) {
+            throw new EmptyStackException();
+        }
+        T last_element = list.get(list.size() - 1);
+        list.remove(list.size() - 1);
+        return last_element;
+    }
+
     public boolean isEmpty() {
         int size = list.size();
         if(size ==0){
