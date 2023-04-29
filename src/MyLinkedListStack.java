@@ -48,6 +48,11 @@ public class MyLinkedListStack<T> {
         return list.get(list.size()-1);
     }
 
+    /**
+     * Returns true if the stack is empty, false otherwise.
+     *
+     * @return true if the stack is empty, false otherwise
+     */
     public boolean isEmpty() {
         int size = list.size();
         if(size ==0){
