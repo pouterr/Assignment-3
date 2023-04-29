@@ -18,4 +18,18 @@ public class MyLinkedListQueue<T> {
     public void enqueue(T element) {
         list.add(element);
     }
+
+    /**
+     * Returns true if the queue is empty, false otherwise.
+     *
+     * @return true if the queue is empty, false otherwise
+     */
+    public boolean isEmpty() {
+        int size = list.size();
+        if(size ==0){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }
