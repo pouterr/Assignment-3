@@ -8,7 +8,7 @@ public class MyLinkedListStack<T> {
     }
 
     public void push(T element) {
-        list.add(element,0);
+        list.add(element);
     }
 
     public T pop() {
