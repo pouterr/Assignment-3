@@ -11,6 +11,11 @@ public class MyLinkedListStack<T> {
         list = new MyLinkedList<>();
     }
 
+    /**
+     * Adds an element to the top of the stack.
+     *
+     * @param element the element to be added to the top of the stack
+     */
     public void push(T element) {
         list.add(element);
     }
