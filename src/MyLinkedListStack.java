@@ -62,6 +62,11 @@ public class MyLinkedListStack<T> {
         }
     }
 
+    /**
+     * Returns the number of elements in the stack.
+     *
+     * @return the number of elements in the stack
+     */
     public int size() {
         return list.size();
     }
