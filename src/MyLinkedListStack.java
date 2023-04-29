@@ -36,5 +36,7 @@ public class MyLinkedListStack<T> {
         }
     }
 
-
+    public int size() {
+        return list.size();
+    }
 }
