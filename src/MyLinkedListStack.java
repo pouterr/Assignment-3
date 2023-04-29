@@ -35,6 +35,12 @@ public class MyLinkedListStack<T> {
         return last_element;
     }
 
+    /**
+     * Returns the top element of the stack without removing it.
+     *
+     * @return the top element of the stack
+     * @throws EmptyStackException if the stack is empty
+     */
     public T peek() {
         if (isEmpty()) {
             throw new EmptyStackException();
