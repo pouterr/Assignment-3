@@ -20,6 +20,13 @@ public class MyLinkedListStack<T> {
         return last_element;
     }
 
+    public T peek() {
+        if (isEmpty()) {
+            throw new EmptyStackException();
+        }
+        return list.get(list.size()-1);
+    }
+
     public boolean isEmpty() {
         int size = list.size();
         if(size ==0){
@@ -28,4 +35,6 @@ public class MyLinkedListStack<T> {
             return false;
         }
     }
+
+
 }
