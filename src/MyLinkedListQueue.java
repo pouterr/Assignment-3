@@ -48,6 +48,15 @@ public class MyLinkedListQueue<T> {
     }
 
     /**
+     * Returns the number of elements in the queue.
+     *
+     * @return the number of elements in the queue
+     */
+    public int size() {
+        return list.size();
+    }
+
+    /**
      * Returns true if the queue is empty, false otherwise.
      *
      * @return true if the queue is empty, false otherwise
