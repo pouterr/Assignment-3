@@ -6,4 +6,6 @@ public class MyLinkedListStack<T> {
     public MyLinkedListStack() {
         list = new MyLinkedList<>();
     }
+
+
 }
