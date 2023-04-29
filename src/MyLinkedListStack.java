@@ -7,5 +7,7 @@ public class MyLinkedListStack<T> {
         list = new MyLinkedList<>();
     }
 
-
+    public void push(T element) {
+        list.add(element);
+    }
 }
