@@ -20,6 +20,21 @@ public class MyLinkedListQueue<T> {
     }
 
     /**
+     * Removes and returns the front element of the queue.
+     *
+     * @return the front element of the queue
+     * @throws NoSuchElementException if the queue is empty
+     */
+    public T dequeue() {
+        if (isEmpty()) {
+            throw new NoSuchElementException("Queue is empty");
+        }
+        T peek = list.get(0);
+        list.remove(0);
+        return peek;
+    }
+
+    /**
      * Returns true if the queue is empty, false otherwise.
      *
      * @return true if the queue is empty, false otherwise
