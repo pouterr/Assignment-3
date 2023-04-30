@@ -1,7 +1,7 @@
 # Assignment-3
-# MyLinkedListQueue
+# MyLinkedListQueue or MyArrayListQueue
 
-*This class is an implementation of a queue using a LinkedList data structure. It has the following methods:*
+*This class is an implementation of a queue using a LinkedList or ArrayList data structure. It has the following methods:*
 
 `enqueue(element)`: Adds an element to the back of the queue.
 
@@ -13,9 +13,9 @@
 
 `isEmpty()`: Returns true if the queue is empty, false otherwise.
 
-# MyLinkedListStack
+# MyLinkedListStack or MyArrayListStack
 
-*This class is an implementation of a stack using a LinkedList data structure. It has the following methods:*
+*This class is an implementation of a stack using a LinkedList or ArrayList data structure. It has the following methods:*
 
 `push(element)`: Adds an element to the top of the stack.
 
